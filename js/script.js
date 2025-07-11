@@ -87,7 +87,7 @@ const contactInfo = [
     {
         icon: 'fas fa-phone-alt',
         title: 'Telefone',
-        content: '84 028 6033  &  87 999 8258'
+        content: '(+258) 84 028 6033 <br> (+258) 87 999 8258'
     },
     {
         icon: 'fas fa-envelope',
