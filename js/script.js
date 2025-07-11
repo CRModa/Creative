@@ -87,12 +87,12 @@ const contactInfo = [
     {
         icon: 'fas fa-phone-alt',
         title: 'Telefone',
-        content: '840286033'
+        content: '84 028 6033  &  84 693 5587'
     },
     {
         icon: 'fas fa-envelope',
         title: 'Email',
-        content: 'cmoda@unilurio.ac.mz'
+        content: ''
     },
     {
         icon: 'fas fa-clock',
