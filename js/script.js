@@ -69,12 +69,12 @@ const testimonialsData = [
     { 
         quote: 'A CreativeDev transformou nossa presença online com um site incrível que aumentou nossas vendas em 40%.', 
         author: 'Carlos Silva', 
-        position: 'CEO, Empresa X' 
+        position: 'AgroPec' 
     },
     { 
         quote: 'O aplicativo desenvolvido superou nossas expectativas e nossos clientes adoraram a experiência.', 
         author: 'Ana Oliveira', 
-        position: 'Diretora de Marketing, Startup Y' 
+        position: 'ZAVA Consultoria' 
     }
 ];
 
@@ -82,12 +82,12 @@ const contactInfo = [
     { 
         icon: 'fas fa-map-marker-alt', 
         title: 'Endereço', 
-        content: 'Av. Eduardo Mondlane, Cuamba-Niassa' 
+        content: 'Av. Eduardo Mondlane, Nampula' 
     },
     { 
         icon: 'fas fa-phone-alt', 
         title: 'Telefone', 
-        content: '849460718' 
+        content: '840286033' 
     },
     { 
         icon: 'fas fa-envelope', 
