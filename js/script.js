@@ -67,14 +67,14 @@ const portfolioData = [
 
 const testimonialsData = [
     {
-        quote: 'A CreativeDev transformou nossa presença online com um site incrível que aumentou nossas vendas em 40%.',
-        author: 'Carlos Silva',
+        quote: 'A CreativeDev transformou a nossa empresa, dando uma identidade que nos diferência no mercado.',
+        author: 'Geraldo Catamassa',
         position: 'AgroPec'
     },
     {
-        quote: 'O aplicativo desenvolvido superou nossas expectativas e nossos clientes adoraram a experiência.',
-        author: 'Ana Oliveira',
-        position: 'ZAVA Consultoria'
+        quote: 'A CreativeDev transformou nossa presença online com um site incrível, medou a forma como nós apresentamos para nossos clientes nesse mundo diginal.',
+        author: 'Zaida Premogy',
+        position: 'Sócia Gerente e Consultora Sênior, ZAVA Consultoria'
     }
 ];
 
