@@ -1,103 +1,103 @@
 // Dados dinâmicos
 const servicesData = [
-    { 
-        icon: 'fas fa-palette', 
-        title: 'Design Gráfico', 
-        description: 'Criação de identidade visual, logos, banners, materiais impressos e ilustrações digitais personalizadas.' 
+    {
+        icon: 'fas fa-palette',
+        title: 'Design Gráfico',
+        description: 'Criação de identidade visual, logos, banners, materiais impressos e ilustrações digitais personalizadas.'
     },
-    { 
-        icon: 'fas fa-code', 
-        title: 'Desenvolvimento Web', 
-        description: 'Sites responsivos, landing pages, e-commerces e sistemas web sob medida para seu negócio.' 
+    {
+        icon: 'fas fa-code',
+        title: 'Desenvolvimento Web',
+        description: 'Sites responsivos, landing pages, e-commerces e sistemas web sob medida para seu negócio.'
     },
-    { 
-        icon: 'fas fa-mobile-alt', 
-        title: 'Apps Mobile', 
-        description: 'Aplicativos Android nativos ou híbridos com design intuitivo e alta performance.' 
+    {
+        icon: 'fas fa-mobile-alt',
+        title: 'Apps Mobile',
+        description: 'Aplicativos Android nativos ou híbridos com design intuitivo e alta performance.'
     },
-    { 
-        icon: 'fas fa-desktop', 
-        title: 'Sistemas Desktop', 
-        description: 'Soluções personalizadas para Windows e Linux que automatizam e otimizam seus processos.' 
+    {
+        icon: 'fas fa-desktop',
+        title: 'Sistemas Desktop',
+        description: 'Soluções personalizadas para Windows e Linux que automatizam e otimizam seus processos.'
     },
-    { 
-        icon: 'fas fa-search', 
-        title: 'SEO', 
-        description: 'Otimização para mecanismos de busca para aumentar sua visibilidade online.' 
+    {
+        icon: 'fas fa-search',
+        title: 'SEO',
+        description: 'Otimização para mecanismos de busca para aumentar sua visibilidade online.'
     },
-    { 
-        icon: 'fas fa-chart-line', 
-        title: 'Marketing Digital', 
-        description: 'Estratégias digitais para aumentar sua presença online e atrair mais clientes.' 
+    {
+        icon: 'fas fa-chart-line',
+        title: 'Marketing Digital',
+        description: 'Estratégias digitais para aumentar sua presença online e atrair mais clientes.'
     }
 ];
 
 const portfolioData = [
-    { 
-        title: 'Identidade Visual - Restaurante', 
-        category: 'design', 
-        image: 'https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80' 
+    {
+        title: 'Identidade Visual - Restaurante',
+        category: 'design',
+        image: 'https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
     },
-    { 
-        title: 'Site Institucional - Clínica', 
-        category: 'web', 
-        image: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a9e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80' 
+    {
+        title: 'Site Institucional - Clínica',
+        category: 'web',
+        image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
     },
-    { 
-        title: 'App de Delivery', 
-        category: 'mobile', 
-        image: 'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80' 
+    {
+        title: 'App de Delivery',
+        category: 'mobile',
+        image: 'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
     },
-    { 
-        title: 'Sistema de Gestão', 
-        category: 'desktop', 
-        image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80' 
+    {
+        title: 'Sistema de Gestão',
+        category: 'desktop',
+        image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
     },
-    { 
-        title: 'Redesign de Marca', 
-        category: 'design', 
-        image: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80' 
+    {
+        title: 'Redesign de Marca',
+        category: 'design',
+        image: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80'
     },
-    { 
-        title: 'Loja Virtual', 
-        category: 'web', 
-        image: 'https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80' 
+    {
+        title: 'Loja Virtual',
+        category: 'web',
+        image: 'https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
     }
 ];
 
 const testimonialsData = [
-    { 
-        quote: 'A CreativeDev transformou nossa presença online com um site incrível que aumentou nossas vendas em 40%.', 
-        author: 'Carlos Silva', 
-        position: 'AgroPec' 
+    {
+        quote: 'A CreativeDev transformou nossa presença online com um site incrível que aumentou nossas vendas em 40%.',
+        author: 'Carlos Silva',
+        position: 'AgroPec'
     },
-    { 
-        quote: 'O aplicativo desenvolvido superou nossas expectativas e nossos clientes adoraram a experiência.', 
-        author: 'Ana Oliveira', 
-        position: 'ZAVA Consultoria' 
+    {
+        quote: 'O aplicativo desenvolvido superou nossas expectativas e nossos clientes adoraram a experiência.',
+        author: 'Ana Oliveira',
+        position: 'ZAVA Consultoria'
     }
 ];
 
 const contactInfo = [
-    { 
-        icon: 'fas fa-map-marker-alt', 
-        title: 'Endereço', 
-        content: 'Av. Eduardo Mondlane, Nampula' 
+    {
+        icon: 'fas fa-map-marker-alt',
+        title: 'Endereço',
+        content: 'Av. Eduardo Mondlane, Nampula'
     },
-    { 
-        icon: 'fas fa-phone-alt', 
-        title: 'Telefone', 
-        content: '840286033' 
+    {
+        icon: 'fas fa-phone-alt',
+        title: 'Telefone',
+        content: '840286033'
     },
-    { 
-        icon: 'fas fa-envelope', 
-        title: 'Email', 
-        content: 'cmoda@unilurio.ac.mz' 
+    {
+        icon: 'fas fa-envelope',
+        title: 'Email',
+        content: 'cmoda@unilurio.ac.mz'
     },
-    { 
-        icon: 'fas fa-clock', 
-        title: 'Horário', 
-        content: 'Seg-Sex: 9h às 18h' 
+    {
+        icon: 'fas fa-clock',
+        title: 'Horário',
+        content: 'Seg-Sex: 9h às 18h'
     }
 ];
 
@@ -242,7 +242,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     hamburger.addEventListener('click', () => {
         navMenu.classList.toggle('active');
-        hamburger.innerHTML = navMenu.classList.contains('active') ? 
+        hamburger.innerHTML = navMenu.classList.contains('active') ?
             '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
     });
 
@@ -256,11 +256,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
+        anchor.addEventListener('click', function (e) {
             e.preventDefault();
             const targetId = this.getAttribute('href');
             const targetElement = document.querySelector(targetId);
-            
+
             window.scrollTo({
                 top: targetElement.offsetTop - 80,
                 behavior: 'smooth'
@@ -271,16 +271,16 @@ document.addEventListener('DOMContentLoaded', () => {
     // Filtros do portfólio
     const filterButtons = document.querySelectorAll('.filter-btn');
     const portfolioItems = document.querySelectorAll('.portfolio-item');
-    
+
     filterButtons.forEach(button => {
         button.addEventListener('click', () => {
             // Remove a classe active de todos os botões
             filterButtons.forEach(btn => btn.classList.remove('active'));
             // Adiciona a classe active apenas ao botão clicado
             button.classList.add('active');
-            
+
             const filter = button.dataset.filter;
-            
+
             // Filtra os itens do portfólio
             portfolioItems.forEach(item => {
                 if (filter === 'all' || item.dataset.category === filter) {
@@ -304,7 +304,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Observer para animações
     const fadeElements = document.querySelectorAll('.fade-in');
-    
+
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -315,7 +315,7 @@ document.addEventListener('DOMContentLoaded', () => {
         threshold: 0.1,
         rootMargin: '0px 0px -50px 0px'
     });
-    
+
     fadeElements.forEach(element => {
         observer.observe(element);
     });
