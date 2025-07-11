@@ -82,17 +82,17 @@ const contactInfo = [
     { 
         icon: 'fas fa-map-marker-alt', 
         title: 'Endereço', 
-        content: 'Av. Principal, 123 - Centro, Cidade/UF' 
+        content: 'Av. Eduardo Mondlane, Cuamba-Niassa' 
     },
     { 
         icon: 'fas fa-phone-alt', 
         title: 'Telefone', 
-        content: '(00) 1234-5678<br>(00) 98765-4321' 
+        content: '849460718' 
     },
     { 
         icon: 'fas fa-envelope', 
         title: 'Email', 
-        content: 'contato@creativedev.com' 
+        content: 'cmoda@unilurio.ac.mz' 
     },
     { 
         icon: 'fas fa-clock', 
